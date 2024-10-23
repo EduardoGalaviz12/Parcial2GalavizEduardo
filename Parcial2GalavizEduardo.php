@@ -8,6 +8,7 @@
 <body>
 <?php 
 echo "ARRAY NORMAL:"."<br>";
+echo "<br>";
 $Telefonos = [ 
 ["Telefono" => "Samsung", "Precio" => 3000], 
 ["Telefono" => "Android", "Precio" => 2000], 
@@ -24,8 +25,9 @@ foreach ($Telefonos as $telefono) {
 
 
 rsort($Telefonos);
-
+echo "<br>";
 echo "\nARRAY DE MAYOR A MENOR:\n"."<br>";
+echo "<br>";
 foreach ($Telefonos as $telefono) {
     echo "Teléfono: " . $telefono["Telefono"] . ", Precio: " . $telefono["Precio"] . "<br>";
 }
