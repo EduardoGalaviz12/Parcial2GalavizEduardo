@@ -16,12 +16,13 @@ $Telefonos = [
 ["Telefono" => "Galaxy A015", "Precio" => 2000], 
 ["Telefono" => "Xiaomi", "Precio" => 3000]];
 
-array_push ($Telefonos, ["Telefono" => "Motorola", "Precio" => 2050]);
-array_push ($Telefonos, ["Telefono" => "Nokia", "Precio" => 2100]);
-
 foreach ($Telefonos as $telefono) {
     echo "Teléfono: " . $telefono["Telefono"] . ", Precio: " . $telefono["Precio"] . "<br>";
 }
+array_push ($Telefonos, ["Telefono" => "Motorola", "Precio" => 2050]);
+array_push ($Telefonos, ["Telefono" => "Nokia", "Precio" => 2100]);
+
+
 
 
 rsort($Telefonos);
